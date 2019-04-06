@@ -1,0 +1,19 @@
+{
+  "name": "blog-graphql",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./bin/www"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "express": "^4.16.4",
+    "graphql": "^14.2.1",
+    "graphql-import": "^0.7.1",
+    "graphql-tools": "^4.0.4",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

@@ -1,0 +1,8 @@
+type Entry {
+    id: ID
+    title: String
+    content: String
+    description: String
+    image: String
+    wroteDate: String
+}

@@ -1,0 +1,5 @@
+# import * from "modules/entry/types.graphql"
+
+type Query {
+    entries(id: Int): [Entry]
+}
